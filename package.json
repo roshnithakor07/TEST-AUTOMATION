@@ -1,0 +1,16 @@
+{
+  "name": "trend-micro-health-check-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node app.js",
+    "install-client": "cd client && yarn install",
+    "build-client": "cd client && yarn run build",
+    "start-client": "cd client && yarn run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
