@@ -12,12 +12,12 @@ const docx = require('./routes/docx')
 
 const app = express();
 // middleware
-const corsOptions = {
-    origin: "https://client-9r2b.onrender.com/" // frontend URI (ReactJS)
-}
+// const corsOptions = {
+//     origin: "https://client-9r2b.onrender.com/" // frontend URI (ReactJS)
+// }
 app.use(express.json());
-app.use(cors(corsOptions));
-
+//app.use(cors(corsOptions));
+app.use(cors());
 const PORT = process.env.PORT || 5000;
 
 //app.use(bodyParser.json());
